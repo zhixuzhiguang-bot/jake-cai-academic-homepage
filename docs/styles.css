@@ -13,7 +13,10 @@ body{background:var(--paper)}
 .section-tint,.section-dark{background:var(--paper);color:var(--ink);border-bottom:1px solid var(--line)}
 .section-dark .lead,.section-dark .card p,.teaching-card p,.course-grid ul{color:var(--muted)}
 .section-dark .section-title .index,.teaching-card .number{color:var(--accent)}
-.card-grid,.teaching-grid{grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:28px}
-.section-tint .card,.teaching-card{min-height:250px;padding:30px;background:var(--surface);border:1px solid var(--line);border-top:3px solid var(--accent)}
+.card-grid,.teaching-grid{gap:24px}
+#project-cards{grid-template-columns:repeat(3,minmax(0,1fr))}
+#teaching-cards{grid-template-columns:repeat(2,minmax(0,1fr))}
+.section-tint .card,.teaching-card{min-height:220px;padding:24px;background:var(--surface);border:1px solid var(--line);border-top:3px solid var(--accent)}
 .course-details{border-top-color:var(--line)}
-@media(max-width:760px){.card-grid,.teaching-grid{grid-template-columns:1fr}.section-tint .card,.teaching-card{min-height:auto;padding:24px}}
+@media(max-width:900px){#project-cards,#teaching-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){#project-cards,#teaching-cards{grid-template-columns:1fr}.section-tint .card,.teaching-card{min-height:auto;padding:22px}}

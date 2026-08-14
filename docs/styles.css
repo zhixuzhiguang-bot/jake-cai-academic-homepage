@@ -11,6 +11,7 @@ body{background:var(--paper)}
 .section-tint .card{background:#fffdf9;border-color:var(--line);border-top:3px solid var(--accent)}
 @media(max-width:760px){.shell{width:min(100% - 40px,1180px)}.hero{min-height:auto;grid-template-columns:1fr}.hero-copy{padding-top:28px}.watermark{width:82vw;opacity:.1}}
 .section-tint,.section-dark{background:var(--paper);color:var(--ink);border-bottom:1px solid var(--line)}
+.section.section-tint,.section.section-dark{display:block}
 .section-dark .lead,.section-dark .card p,.teaching-card p,.course-grid ul{color:var(--muted)}
 .section-dark .section-title .index,.teaching-card .number{color:var(--accent)}
 .card-grid,.teaching-grid{gap:24px}

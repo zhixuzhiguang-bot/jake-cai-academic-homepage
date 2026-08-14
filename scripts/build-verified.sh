@@ -25,4 +25,14 @@ timeout \
   "${SITES_BUILD_TIMEOUT:-3m}" \
   "${vinext}" build
 
+# Sites invokes a Worker module whose default export must expose fetch().
+# Vinext's server entry is itself a Request handler, so preserve it and place
+# a tiny Worker-compatible adapter at the required entrypoint.
+server_dir="${SITES_PROJECT_ROOT}/dist/server"
+mv "${server_dir}/index.js" "${server_dir}/vinext-server.js"
+printf '%s\n' \
+  'import handler from "./vinext-server.js";' \
+  'export default { fetch(request, _env, ctx) { return handler(request, ctx); } };' \
+  > "${server_dir}/index.js"
+
 bash "${script_dir}/validate-artifact.sh"

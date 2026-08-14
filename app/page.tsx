@@ -10,7 +10,7 @@ const content = {
     institution: "Texas State University",
     location: "San Marcos, Texas",
     about: "I am an Assistant Professor in the Department of Mathematics at Texas State University. My research develops scalable statistical methods for complex data involving latent structure, dependence, and temporal change. I am also interested in applications in public health, insurance, education, and data science.",
-    links: ["Email", "Curriculum Vitae", "Google Scholar", "GitHub"],
+    links: ["Email", "Curriculum Vitae", "Google Scholar", "LinkedIn"],
     researchTitle: "Research",
     researchLead: "My methodological work focuses on reliable inference for data that are high-dimensional, dependent, partially observed, or changing over time.",
     themes: [
@@ -50,7 +50,7 @@ const content = {
     nav: ["简介", "研究", "项目", "论文", "经历"],
     title: "数学系助理教授", institution: "德州州立大学", location: "美国得克萨斯州圣马科斯",
     about: "我现任德州州立大学数学系助理教授。我的研究致力于为具有隐结构、相关性和时间变化的复杂数据发展可扩展的统计方法，同时关注公共卫生、保险、教育与数据科学中的应用问题。",
-    links: ["电子邮件", "英文简历", "Google Scholar", "GitHub"],
+    links: ["电子邮件", "英文简历", "Google Scholar", "领英"],
     researchTitle: "研究方向", researchLead: "我的方法研究聚焦高维、相关、部分不可观测或随时间变化的数据，并关注可靠而高效的统计推断。",
     themes: [["可扩展推断与隐变量模型", "研究复杂隐结构的可计算估计与不确定性量化方法，包括极大理想似然估计。"], ["相关性建模", "为空间、时空、顺序与相关数据发展统计方法，强调相关结构的可解释性。"], ["变点与因果分析", "研究重复多元时间序列，以及存在多个结构变化时的因果问题。"], ["跨学科数据科学", "在公共卫生、保险定价、教育与人工智能研究中开展方法驱动型合作。"]],
     projectsTitle: "代表性项目", projectsLead: "将统计方法与真实世界问题连接起来的部分研究工作。",
@@ -75,8 +75,8 @@ export default function Home() {
     </header>
     <div className="page">
       <section className="intro" id="about">
-        <div className="identity"><p className="overline">{t.institution}</p><h1>Yizhou <span>(Jake)</span> Cai</h1><p className="position">{t.title}</p><p className="location">{t.location}</p></div>
-        <div className="bio"><p>{t.about}</p><div className="profile-links"><a href="mailto:yizhouc@txstate.edu">{t.links[0]}</a><a href="/Yizhou-Jake-Cai-CV.pdf" download>{t.links[1]}</a><span title="Link to be added">{t.links[2]}</span><span title="Link to be added">{t.links[3]}</span></div></div>
+        <div className="identity"><img className="institution-logo" src="/txst.png" alt="Texas State University logo" /><p className="overline">{t.institution}</p><h1>Yizhou <span>(Jake)</span> Cai</h1><p className="position">{t.title}</p><p className="location">{t.location}</p></div>
+        <div className="bio"><p>{t.about}</p><div className="profile-links"><a href="mailto:yizhouc@txstate.edu">{t.links[0]}</a><a href="/Yizhou-Jake-Cai-CV.pdf" download>{t.links[1]}</a><a href="https://scholar.google.com/scholar?q=author%3A%22Yizhou+Cai%22" target="_blank" rel="noreferrer">{t.links[2]}</a><a href="https://www.linkedin.com/in/yizhou-cai-328b96228" target="_blank" rel="noreferrer">{t.links[3]}</a></div></div>
       </section>
       <section className="content-section" id="research"><h2>{t.researchTitle}</h2><div className="section-body"><p className="lead">{t.researchLead}</p><div className="research-list">{t.themes.map(([name,desc])=><article key={name}><h3>{name}</h3><p>{desc}</p></article>)}</div></div></section>
       <section className="content-section projects" id="projects"><h2>{t.projectsTitle}</h2><div className="section-body"><p className="lead">{t.projectsLead}</p><div className="project-grid">{t.projects.map(([tag,name,desc],i)=><article key={name}><div className="project-top"><span>{String(i+1).padStart(2,"0")}</span><small>{tag}</small></div><h3>{name}</h3><p>{desc}</p></article>)}</div></div></section>

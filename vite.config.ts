@@ -12,6 +12,10 @@ export default defineConfig(async () => {
   process.env.WRANGLER_LOG_PATH ??= ".wrangler/logs";
   process.env.MINIFLARE_REGISTRY_PATH ??= ".wrangler/registry";
 
+  // Generate the Worker-compatible entrypoint required by the hosting
+  // platform without routing development requests through a custom worker.
+  const { cloudflare } = await import("@cloudflare/vite-plugin");
+
   return {
     server: {
       host: "0.0.0.0",
@@ -20,8 +24,14 @@ export default defineConfig(async () => {
         ? { watch: { useFsEvents: false, usePolling: true } }
         : {}),
     },
-    // This homepage is fully static and does not use D1 or R2, so it does not
-    // need a local Cloudflare worker to serve the development preview.
-    plugins: [vinext(), sites()],
+    plugins: [
+      vinext(),
+      sites(),
+      cloudflare({
+        viteEnvironment: { name: "rsc", childEnvironments: ["ssr"] },
+        inspectorPort: false,
+        config: { compatibility_flags: ["nodejs_compat"] },
+      }),
+    ],
   };
 });

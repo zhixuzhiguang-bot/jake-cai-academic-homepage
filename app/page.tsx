@@ -6,26 +6,26 @@ type Lang = "en" | "zh";
 const content = {
   en: {
     nav: ["About", "Research", "Projects", "Publications", "Background"],
-    title: "Assistant Professor of Mathematics",
-    institution: "Texas State University",
+    title: "Assistant Professor in Statistics",
+    institution: "Department of Mathematics, Texas State University",
     location: "San Marcos, Texas",
-    about: "I am an Assistant Professor in the Department of Mathematics at Texas State University. My research develops scalable statistical methods for complex data involving latent structure, dependence, and temporal change. I am also interested in applications in public health, insurance, education, and data science.",
+    about: "I am an Assistant Professor in Statistics at Texas State University. My research develops scalable statistical methods for high dimensional data. I am also experienced in interdisciplinary applications such as public health, finance, education, and data science.(add another paragraph saying that I am welcoming collaobrations in other area and industry. Add a sentense I am also recruting 2 phd students.)",
     links: ["Email", "Curriculum Vitae", "Google Scholar", "GitHub"],
     researchTitle: "Research",
-    researchLead: "My methodological work focuses on reliable inference for data that are high-dimensional, dependent, partially observed, or changing over time.",
+    researchLead: "My methodological work focuses on reliable inference for data under complex dependent. Pattern change in spatial and temporal data is also my research interest.",
     themes: [
-      ["Scalable inference and latent-variable models", "Computationally feasible estimation and uncertainty quantification for complex latent structures, including Maximum Ideal Likelihood Estimation."],
-      ["Dependence modeling", "Statistical methods for spatial, spatiotemporal, ordinal, and correlated data, with an emphasis on interpretable dependence structures."],
-      ["Change-point and causal analysis", "Methods for replicated multivariate time series and causal questions in settings with multiple structural changes."],
-      ["Interdisciplinary data science", "Collaborative applications in public health, insurance pricing, education, and the study of artificial intelligence."]
+      ["Scalable methods and inference", "Computationally feasible estimation and approximation under complex dependence structures, including Maximum Ideal Likelihood Estimation."],
+      ["High dimensional statistics", "Statistical methods for spatial, spatio-temporal, ordinal, and pattern-changed data, with an emphasis on interpretable dependence structures."],
+      ["Causal effect analysis", "Methods for multivariate observations and causal effect detection in settings with multiple structural changes."],
+      ["Interdisciplinary data science", "Collaborative applications in public health, finance, education, and AI assessment."]
     ],
     projectsTitle: "Selected projects",
     projectsLead: "Representative work connecting statistical methodology with real-world questions.",
     projects: [
-      ["Latent-variable inference", "Maximum Ideal Likelihood Estimation", "A unified framework that treats latent quantities as parameters, making complex latent-variable models easier to estimate, diagnose, and scale."],
-      ["Insurance & spatial risk", "Dependence in large insurance claims", "Spatial factor copula models and scalable composite-likelihood tools for dependence-aware pricing of hail losses."],
-      ["Public health", "Change points in mental-health trajectories", "Causal and change-point methods for replicated multivariate time series, motivated by changes in mental-disorder symptoms."],
-      ["Human-centered AI", "Bias and practice in AI systems", "Empirical studies of visual-AI bias and the global adoption, benefits, and concerns surrounding generative AI in research."]
+      ["Latent-variable inference", "Maximum Ideal Likelihood Estimation", "A unified framework that parameterizes latent quantities, making complex latent-variable models easier to estimate, diagnose, and scale."],
+      ["Insurance pricing & spatial risk", "Dependence in large insurance claims", "Spatial factor copula models and scalable composite-likelihood tools for dependence-aware pricing of hail losses."],
+      ["Public health & bio-statistics", "Change points in mental health trajectories", "Causal and change-point methods for replicated multivariate time series, motivated by changes in mental disorder symptoms."],
+      ["Human-centered AI", "Bias and practice of AI systems", "Empirical studies of visual-AI bias, and the country-wise study on adoption, benefits, and concerns surrounding generative AI."]
     ],
     pubTitle: "Selected publications and manuscripts",
     pubNote: "A complete list of publications, presentations, and works in progress is available in my CV.",
@@ -34,16 +34,17 @@ const content = {
       ["Mohammadi, E., Cai, Y., Novin, A., Vera, V., & Mohammadi, E. S. (2025).", "Who is a Scientist? Gender and Racial Biases in Google Vision AI.", "AI and Ethics."],
       ["Ma, T. F., Cai, Y., Shi, P., & Zhu, J. (2024).", "Hierarchical Dependence Modeling for the Analysis of Large Insurance Claims Data.", "The Annals of Applied Statistics, 18(2), 1402–1420."],
       ["Lookingbill, V., Mohammadi, E., & Cai, Y. (2023).", "Assessment of Accuracy, User Engagement, and Themes of Eating Disorder Content in Social Media Short Videos.", "JAMA Network Open, 6(4), e238897."],
-      ["Cai, Y., & Ma, T. F.", "Maximum Ideal Likelihood Estimation: A Unified Inference Framework for Latent Variable Models.", "Under review at JRSS Series B."],
+      [(replace this one with the MBR paper)"Cai, Y., & Ma, T. F.", "Maximum Ideal Likelihood Estimation: A Unified Inference Framework for Latent Variable Models.", "Under review at JRSS Series B."],
       ["Zou, A. H., Cai, Y. J., & Ma, T. F.", "Voronoi-Elitism Genetic Algorithm: A Generic Derivative-Free Routine with Theory and Implementation for Statistical Optimization.", "Under review at Statistics and Computing."]
+      [(add the education conference paper and the patent)]
     ],
     teachingTitle: "Teaching",
-    teaching: "My teaching emphasizes statistical reasoning, mathematical foundations, computation, and communication. I have taught or supported courses in probability, mathematical statistics, statistical inference, data analysis, sampling, and machine learning.",
+    teaching: "My teaching emphasizes conceptual understanding, mathematical foundations, and (脉络化). I have taught or supported courses in probability, mathematical statistics, statistical inference, data analysis, sampling, and machine learning.(list some important course, instead of a summary)",
     backgroundTitle: "Background",
     education: "Education",
     appointments: "Appointments",
     educationItems: [["2026", "Ph.D. in Statistics", "University of South Carolina"], ["2020", "M.Sc. in Financial Modelling", "Western University"], ["2019", "Master of Financial Insurance", "University of Toronto"], ["2018", "B.Sc. in Mathematics and Applied Mathematics", "Shanghai Jiao Tong University"]],
-    appointmentItems: [["2026–present", "Assistant Professor", "Texas State University"], ["2025–2026", "Statistics Consultant", "Thomas Cooper Library, University of South Carolina"], ["2023–2025", "Lab Instructor", "University of South Carolina"], ["2021–2023", "Research and Teaching Assistant", "University of South Carolina"]],
+    (I dont like the name of appointment. use Work or other terms) appointmentItems: [["2026–present", "Assistant Professor", "Texas State University"], ["2025–2026", "Statistics Consultant", "Thomas Cooper Library, University of South Carolina"], ["2023–2025", "Lab Instructor", "University of South Carolina"], ["2021–2023", "Research and Teaching Assistant", "University of South Carolina"](replace the TA by the position in Jiuxianzai Education as policy research and lecturer)],
     updated: "Last updated August 2026"
   },
   zh: {

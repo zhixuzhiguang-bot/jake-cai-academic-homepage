@@ -10,3 +10,10 @@ body{background:var(--paper)}
 .links a{border-color:var(--gold)}
 .section-tint .card{background:#fffdf9;border-color:var(--line);border-top:3px solid var(--accent)}
 @media(max-width:760px){.shell{width:min(100% - 40px,1180px)}.hero{min-height:auto;grid-template-columns:1fr}.hero-copy{padding-top:28px}.watermark{width:82vw;opacity:.1}}
+.section-tint,.section-dark{background:var(--paper);color:var(--ink);border-bottom:1px solid var(--line)}
+.section-dark .lead,.section-dark .card p,.teaching-card p,.course-grid ul{color:var(--muted)}
+.section-dark .section-title .index,.teaching-card .number{color:var(--accent)}
+.card-grid,.teaching-grid{grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:28px}
+.section-tint .card,.teaching-card{min-height:250px;padding:30px;background:var(--surface);border:1px solid var(--line);border-top:3px solid var(--accent)}
+.course-details{border-top-color:var(--line)}
+@media(max-width:760px){.card-grid,.teaching-grid{grid-template-columns:1fr}.section-tint .card,.teaching-card{min-height:auto;padding:24px}}

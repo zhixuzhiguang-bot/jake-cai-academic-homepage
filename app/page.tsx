@@ -50,7 +50,7 @@ const content = {
     updated: "Last updated August 2026"
   },
   zh: {
-    nav: ["简介", "研究", "项目", "论文", "经历"],
+    nav: ["简介", "研究", "项目", "论文", "教学", "经历"],
     title: "统计学助理教授", institution: "数学系\n德州州立大学", location: "美国得克萨斯州圣马科斯",
     about: "我现任德州州立大学统计学助理教授。我的研究致力于为高维及相关数据发展可扩展的统计方法，并关注公共卫生、金融、教育和数据科学中的应用。我是一名经验丰富的跨领域合作者，乐于将统计方法转化为可与学术界及业界伙伴共同使用的实际工具。我目前正在招收 2 名博士生。",
     links: ["电子邮件", "英文简历", "Google Scholar", "领英"],
@@ -73,13 +73,14 @@ export default function Home() {
   const t = content[lang];
   const ids = ["about", "research", "projects", "publications", "teaching", "background"];
   return <main>
+    <img className="institution-watermark" src="/txst.png" alt="" aria-hidden="true"/>
     <header className="site-header">
       <div className="header-inner"><a className="site-name" href="#about">Yizhou (Jake) Cai</a><nav>{t.nav.map((n,i)=><a key={n} href={`#${ids[i]}`}>{n}</a>)}</nav><div className="lang"><button className={lang==="en"?"active":""} onClick={()=>setLang("en")}>EN</button><span>·</span><button className={lang==="zh"?"active":""} onClick={()=>setLang("zh")}>中文</button></div></div>
     </header>
     <div className="page">
       <section className="intro" id="about">
         <div className="identity"><div className="portrait-wrap"><img className="portrait" src="/profile.jpg" alt="Portrait of Yizhou (Jake) Cai" /></div><p className="overline">{t.institution}</p><h1>Yizhou <span>(Jake)</span> Cai</h1><p className="position">{t.title}</p><p className="location">{t.location}</p></div>
-        <div className="bio"><img className="institution-watermark" src="/txst.png" alt="" aria-hidden="true"/><p>{t.about}</p><div className="profile-links"><a href="mailto:yizhouc@txstate.edu">{t.links[0]}</a><a href="/Yizhou-Jake-Cai-CV.pdf" download>{t.links[1]}</a><a href="https://scholar.google.com/scholar?q=author%3A%22Yizhou+Cai%22" target="_blank" rel="noreferrer">{t.links[2]}</a><a href="https://www.linkedin.com/in/yizhou-cai-328b96228" target="_blank" rel="noreferrer">{t.links[3]}</a></div></div>
+        <div className="bio"><p>{t.about}</p><div className="profile-links"><a href="mailto:yizhouc@txstate.edu">{t.links[0]}</a><a href="/Yizhou-Jake-Cai-CV.pdf" download>{t.links[1]}</a><a href="https://scholar.google.com/scholar?q=author%3A%22Yizhou+Cai%22" target="_blank" rel="noreferrer">{t.links[2]}</a><a href="https://www.linkedin.com/in/yizhou-cai-328b96228" target="_blank" rel="noreferrer">{t.links[3]}</a></div></div>
       </section>
       <section className="content-section" id="research"><h2>{t.researchTitle}</h2><div className="section-body"><p className="lead">{t.researchLead}</p><div className="research-list">{t.themes.map(([name,desc])=><article key={name}><h3>{name}</h3><p>{desc}</p></article>)}</div></div></section>
       <section className="content-section projects" id="projects"><h2>{t.projectsTitle}</h2><div className="section-body"><p className="lead">{t.projectsLead}</p><div className="project-grid">{t.projects.map(([tag,name,desc],i)=><article key={name}><div className="project-top"><span>{String(i+1).padStart(2,"0")}</span><small>{tag}</small></div><h3>{name}</h3><p>{desc}</p></article>)}</div></div></section>

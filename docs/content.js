@@ -1,6 +1,3 @@
-Exit code: 0
-Wall time: 0.5 seconds
-Output:
 /* Edit page copy here. Layout and styling live in index.html and styles.css. */
 const content = {
   en: {

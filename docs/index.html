@@ -1,3 +1,6 @@
+Exit code: 0
+Wall time: 0.5 seconds
+Output:
 <!doctype html>
 <html lang="en">
 <head>
@@ -10,7 +13,7 @@
 <body>
   <img class="watermark" src="txst.png" alt="" aria-hidden="true">
   <header class="site-header">
-    <a class="brand" href="#top">Yizhou (Jake) Cai</a>
+    <a class="brand" href="#top" data-i18n="name">Yizhou (Jake) Cai</a>
     <nav aria-label="Primary navigation">
       <a href="#research" data-i18n="navResearch"></a>
       <a href="#publications" data-i18n="navPublications"></a>
@@ -25,7 +28,7 @@
       <div class="identity">
         <img class="portrait" src="profile.jpg" alt="Portrait of Yizhou (Jake) Cai">
         <p class="eyebrow" data-i18n="affiliation"></p>
-        <h1>Yizhou <span>(Jake)</span> Cai</h1>
+        <h1 data-i18n="name">Yizhou (Jake) Cai</h1>
         <p class="role" data-i18n="role"></p>
         <p class="muted" data-i18n="location"></p>
       </div>
@@ -73,11 +76,12 @@
 
     <section class="section shell" id="background">
       <header class="section-title"><p class="index">05</p><h2 data-i18n="backgroundTitle"></h2></header>
-      <div class="timeline-columns"><div><h3 data-i18n="educationTitle"></h3><div id="education-list"></div></div><div><h3 data-i18n="workTitle"></h3><div id="work-list"></div></div></div>
+      <div class="timeline-columns"><div><h3 data-i18n="educationTitle"></h3><div id="education-list"></div></div><div><h3 data-i18n="workTitle"></h3><div id="work-list"></div><details class="previous-work-details"><summary data-i18n="previousWorkSummary"></summary><div id="previous-work-list"></div></details></div></div>
     </section>
   </main>
 
-  <footer class="shell"><span>&copy; 2026 Yizhou (Jake) Cai</span><span data-i18n="updated"></span></footer>
+  <footer class="shell"><span>&copy; 2026 <span data-i18n="name">Yizhou (Jake) Cai</span></span><span data-i18n="updated"></span></footer>
   <script src="content.js?v=a6f5210"></script>
 </body>
 </html>
+

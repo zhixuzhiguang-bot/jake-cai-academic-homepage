@@ -20,7 +20,7 @@ const content = {
       ["Statistical optimization","Voronoi-Elitism Genetic Algorithm","A generic derivative-free routine with theory and implementation for difficult statistical objectives."],
       ["Ordinal tensor methods","Cluster detection on dependent tensor","New cluster detection methods for dependent ordinal tensors from a funded project."]
     ],
-    publicationsTitle:"Selected publications and manuscripts",publicationNote:"Published work appears first, followed by selected manuscripts. See the CV for the complete list.",
+    publicationsTitle:"Selected publications and manuscripts",publicationNote:"See the CV for the complete list.",
     publications:[
       ["Mohammadi, E., Thelwall, M., Cai, Y., Collier, T., & Eftekhar, A. (2025).","Is Generative AI Reshaping Academic Practices Worldwide?","Information Processing & Management."],
       ["Mohammadi, E., Cai, Y., Novin, A., Vera, V., & Mohammadi, E. S. (2025).","Who is a Scientist? Gender and Racial Biases in Google Vision AI.","AI and Ethics."],
@@ -32,10 +32,10 @@ const content = {
     ],
     teachingTitle:"Teaching & mentoring",teachingLead:"My teaching spans formal courses, structured academic support, admissions preparation, K–12 research mentoring, and higher-education tutoring across regions and educational stages.",courseSummary:"View formal teaching record",
     teaching:[
-      ["Frontline undergraduate and bachelor–master pathway teaching","Delivered frontline teaching and academic support for undergraduate courses and bachelor-to-master transition programs, adapting instruction to students' preparation, course requirements, and progression goals."],
-      ["Academic program operations and process standardization","Coordinated fragmented academic-support and graduate-admissions tasks into standardized, repeatable workflows: issue intake and diagnosis, evidence organization, response templates, scoring rubrics, staged mock interviews, feedback records, and follow-up checkpoints. Used student outcomes and service data to improve scheduling, communication, and quality control; the service received a 99% positive rating in 2023."],
-      ["K–12 academic research mentoring","Mentored a mathematics research project from problem framing and computational experiments to academic writing and manuscript submission, contributing to a paper on the Voronoi-Elitism Genetic Algorithm."],
-      ["Higher-education mentoring and tutoring","Mentored and tutored learners at undergraduate and graduate levels across China, Canada, the United States, Australia, Malaysia, and Hong Kong, adapting support to different academic systems, preparation levels, and goals."]
+      ["Undergraduate and graduate level teaching","Delivered teaching and academic support for undergraduate courses and bachelor-master transition programs, adapting instruction to students' preparation, course requirements, and progression goals."],
+      ["Academic program operations and process standardization","Coordinated fragmented academic-support and graduate-admissions tasks into standardized, repeatable workflows, including issue diagnosis, evidence organization, mock interviews, and quantified checkpoints. Used student outcomes and service data to improve quality control."],
+      ["K–12 academic research mentoring","Mentored mathematics research projects for K-12 students, from problem framing and computational experiments to academic paper writing."],
+      ["Global multi-level mentoring and tutoring","Mentored and tutored learners at undergraduate and graduate levels across China, Canada, the United States, Australia, Malaysia, and Hong Kong, adapting support to different academic systems, preparation levels, and goals."]
     ],
     courses:[
       ["Texas State University",["MATH 3305: Introduction to Probability and Statistics"]],
@@ -44,7 +44,7 @@ const content = {
     ],
     backgroundTitle:"Background",educationTitle:"Education",workTitle:"Work experience",previousWorkSummary:"View completed roles",updated:"Last updated August 2026",
     education:[["2026","Ph.D. in Statistics","University of South Carolina"],["2020","M.Sc. in Financial Modelling","Western University"],["2019","Master of Financial Insurance","University of Toronto"],["2018","B.Sc. in Mathematics and Applied Mathematics","Shanghai Jiao Tong University"]],
-    work:[["2026–present","Assistant Professor","Texas State University"],["August 2026–present","Collaborator","GISense Lab, University of Texas at Austin"],["2021–present","Member, Human Insight for Data and AI (Hi-DA) Lab","University of South Carolina"]],
+    work:[["2026–present","Assistant Professor","Texas State University"],["2026–present","Collaborator, GISense Lab","University of Texas at Austin"],["2021–present","Member, Human Insight for Data and AI (Hi-DA) Lab","University of South Carolina"]],
     previousWork:[["2021–July 2026","Statistical Education Policy Researcher","Jiuxianzai Education Consulting, LLC"],["2025–2026","Statistics Consultant","Thomas Cooper Library, University of South Carolina"],["2023–2025","Lab Instructor","University of South Carolina"],["2019","Member, Fields CQAM Lab","University of Toronto"]]
   },
   zh: {

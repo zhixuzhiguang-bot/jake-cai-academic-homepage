@@ -43,7 +43,7 @@ const content = {
       ["Jiuxianzai Education",["Advanced Statistical Inference","Introduction to Machine Learning Methods","Algorithm and Data Science","Advanced Mathematical Statistics"]]
     ],
     backgroundTitle:"Background",educationTitle:"Education",workTitle:"Work experience",previousWorkSummary:"View completed roles",updated:"Last updated August 2026",
-    education:[["2026","Ph.D. in Statistics","University of South Carolina"],["2020","M.Sc. in Financial Modelling","Western University"],["2019","Master of Financial Insurance","University of Toronto"],["2018","B.Sc. in Mathematics and Applied Mathematics","Shanghai Jiao Tong University"]],
+    education:[["2026","Ph.D. in Statistics","University of South Carolina"],["2020","M.Sc. in Financial Modelling","Western University"],["2019","Master in Financial Insurance","University of Toronto"],["2018","B.Sc. in Mathematics and Applied Mathematics","Shanghai Jiao Tong University"]],
     work:[["2026–present","Assistant Professor","Texas State University"],["2026–present","Collaborator, GISense Lab","University of Texas at Austin"],["2021–present","Member, Human Insight for Data and AI (Hi-DA) Lab","University of South Carolina"]],
     previousWork:[["2021–July 2026","Statistical Education Policy Researcher","Jiuxianzai Education Consulting, LLC"],["2025–2026","Statistics Consultant","Thomas Cooper Library, University of South Carolina"],["2023–2025","Lab Instructor","University of South Carolina"],["2019","Member, Fields CQAM Lab","University of Toronto"]]
   },
@@ -57,12 +57,12 @@ const content = {
     projectsTitle:"代表性项目",projects:[["隐变量推断","极大理想似然估计","隐变量参数化的统一方法框架，实现可扩展推断。"],["空间风险下的保险定价","大型自然灾害保险理赔的定价策略","利用空间因子耦合模型以及组合似然模型进行设计相关性的大型保险定价。"],["公共卫生","后疫情时代的心理健康变化研究","长期多元时间序列的三重因果量化验证及变点检测方法。"],["人工智能的人文应用","人工智能系统的实践与偏差","视觉 AI 偏差与全球生成式 AI 应用的国别实证研究。"],["统计优化","Voronoi-Elitism 遗传算法","面向复杂目标函数的通用无导数统计方法、理论与应用。"],["有序张量方法","相关结构下的聚类检测","强相关性下的多重有序张量聚类识别检测研究。"]],
     publicationsTitle:"代表性论文与工作",publicationNote:"完整清单见英文简历。",
     publications:[["Mohammadi, E., Thelwall, M., Cai, Y., Collier, T., & Eftekhar, A. (2025).","生成式人工智能是否正在重塑全球学术实践？","Information Processing & Management。"],["Mohammadi, E., Cai, Y., Novin, A., Vera, V., & Mohammadi, E. S. (2025).","谁是科学家？Google Vision AI 中的性别与种族偏差","AI and Ethics。"],["Ma, T. F., Cai, Y., Shi, P., & Zhu, J. (2024).","大型保险理赔数据的分层相关性建模","The Annals of Applied Statistics, 18(2), 1402–1420。"],["Lookingbill, V., Mohammadi, E., & Cai, Y. (2023).","社交媒体短视频中饮食失调内容评估","JAMA Network Open, 6(4), e238897。"],["Yin, Y., & Cai, Y.","有序因子分析中 RMSEAD 的估计","Multivariate Behavioral Research，修改中。"],["Zou, A., Cai, Y., & Ma, T. F.","Voronoi-Elitism 遗传算法：一种无梯度统计优化算法的理论及部署","Statistics and Computing，在审。"],["Cai, Y., Mei, S., Wu, S., Pang, W., Dong, S., & Sun, J. (2024).","一种数据分析、评估方法和系统的电子存储设备","中国专利号 202410176158.8。"]],
-    teachingTitle:"教学与指导",teachingLead:"除正式授课外，我也持续建设可复用、可衡量的学术支持流程，覆盖本硕学习、研究生入学、K–12 学术研究及高等教育阶段的跨地区指导。",courseSummary:"查看正式授课履历",
-    teaching:[["本科及本硕衔接课程一线教学","承担本科课程及本硕衔接项目的一线教学与学术支持，根据学生基础、课程要求和升学目标调整授课与辅导方式。"],["学术项目统筹与流程标准化","将零碎的学术支持与研究生入学准备工作统筹为可复用、可追踪的标准流程，涵盖需求受理与问题定位、材料证据梳理、答疑模板、量化评分、分轮模拟面试、反馈记录及后续检查点；并结合学生表现与服务数据持续优化排课、沟通和质量控制。相关服务于 2023 年获得 99% 好评。"],["K–12 学术研究辅导","指导数学研究项目，从选题与问题定义、算法与计算实验，到论文写作和投稿，推进 Voronoi-Elitism 遗传算法论文的形成与发表流程。"],["高等教育 Mentor 与 Tutor","具备本科、硕士及博士培养阶段的指导经验，覆盖中国、加拿大、美国、澳大利亚、马来西亚与中国香港等不同教育体系；能够依据学生背景、目标与所处阶段调整方法。"]],
+    teachingTitle:"教学与指导",teachingLead:"除正式授课外，我也持续建设可复用、可量化的学术支持流程，覆盖本硕学习、研究生入学、K–12 学术研究指导及跨地区多层级辅导。",courseSummary:"查看正式授课履历",
+    teaching:[["本科及研究生层级教学","本科课程及本硕衔接项目的一线教学与学术支持经验，根据学生基础、课程要求和升学目标调整授课与辅导方式。"],["学术项目统筹与流程标准化","将多维度的学术支持与研究生入学准备工作统筹为可复用、可追踪、可量化的标准流程，涵盖需求定位、材料梳理、量化评分、模拟面试、量化反馈等，并结合表现数据持续迭代后续的沟通和质量控制流程。"],["K–12 学术研究辅导","指导数学研究项目，囊括选题、算法与计算实验、论文写作的全流程，提高大学申请材料强度。"],["高等教育多层级指导","具备本科、硕士及博士培养阶段的指导经验，覆盖中国、加拿大、美国、澳大利亚、马来西亚与中国香港等不同教育体系，依据学生背景、目标与所处阶段调整方法。"]],
     courses:[["德州州立大学",["MATH 3305：概率论及统计学导论"]],["南卡罗莱纳大学",["STAT 201：初等统计学","STAT 704：数据分析 I","STAT 712：数理统计 I","STAT 519：抽样调查","STAT 513：统计推断理论","STAT 512：数理统计","STAT 511：概率论"]],["就现在教育咨询",["高级统计推断","机器学习方法导论","算法与数据科学","高等数理统计"]]],
     backgroundTitle:"教育与专业经历",educationTitle:"教育经历",workTitle:"工作经历",previousWorkSummary:"查看已结束的工作经历",updated:"最后更新：2026年8月",
     education:[["2026","统计学博士","南卡罗莱纳大学"],["2020","金融建模硕士","西安大略大学"],["2019","金融保险硕士","多伦多大学"],["2018","数学与应用数学学士","上海交通大学"]],
-    work:[["2026–至今","助理教授","德州州立大学"],["2026年8月–至今","合作研究员","德州大学奥斯汀分校 GISense 实验室"],["2021–至今","Hi-DA 实验室成员","南卡罗莱纳大学"]],
+    work:[["2026–至今","助理教授","德州州立大学"],["2026–至今","GISense实验室合作研究员","德州大学奥斯汀分校"],["2021–至今","Hi-DA 实验室成员","南卡罗莱纳大学"]],
     previousWork:[["2021–2026年7月","统计教育政策研究员","就现在教育咨询"],["2025–2026","统计咨询顾问","南卡罗莱纳大学"],["2023–2025","实验讲师","南卡罗莱纳大学"],["2019","Fields CQAM 实验室成员","多伦多大学"]]
   }
 };

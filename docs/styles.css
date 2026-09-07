@@ -8,6 +8,7 @@ body{background:var(--paper)}
 .hero-copy{position:relative;z-index:1;overflow:visible;padding:36px 0 0;border-top:3px solid var(--accent)}
 .watermark{position:fixed;z-index:0;width:min(520px,54vw);height:auto;left:50%;right:auto;top:50%;transform:translate(-50%,-50%);opacity:.12;filter:sepia(.16) saturate(.88);pointer-events:none;user-select:none}
 .links a{border-color:var(--gold)}
+.opportunities{font:600 13px/1.6 Arial,sans-serif}.opportunities a{color:var(--accent);text-decoration:underline;text-underline-offset:3px}
 .section-tint .card{background:#fffdf9;border-color:var(--line);border-top:3px solid var(--accent)}
 @media(max-width:760px){.shell{width:min(100% - 40px,1180px)}.hero{min-height:auto;grid-template-columns:1fr}.hero-copy{padding-top:28px}.watermark{width:82vw;opacity:.1}}
 .section-tint,.section-dark{background:var(--paper);color:var(--ink);border-bottom:1px solid var(--line)}

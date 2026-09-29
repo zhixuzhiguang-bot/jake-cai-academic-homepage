@@ -8,3 +8,7 @@
 - Use the naming format `history-YYYY-MM-DD-short-description` and include a concise summary of what makes the snapshot significant.
 - Never move or overwrite an existing historical tag. Create a new dated snapshot instead.
 - Small typo, copy, spacing, or metadata fixes do not require a historical snapshot unless the user asks for one.
+
+
+## CV and file replacement (user instruction, 2026-09-28)
+Before replacing the homepage CV or another existing downloadable file, rename the old file to a dated historical filename and preserve it. Do not overwrite or delete the old file; Git history alone is insufficient. Install the new file after archiving and verify the public link returns it. Keep unrelated homepage content unchanged.

@@ -636,3 +636,22 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
+/* People portrait size: change this one value to resize every member photo. */
+.people-grid {
+  --portrait-size: 110px;
+}
+.people-grid img {
+  display: block;
+  width: var(--portrait-size);
+  height: var(--portrait-size);
+  max-width: var(--portrait-size);
+  max-height: var(--portrait-size);
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 50%;
+}
+.person > * {
+  min-width: 0;
+}
+
